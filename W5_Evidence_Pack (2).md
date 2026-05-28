@@ -8,12 +8,12 @@
 | Thông tin | Chi tiết |
 |-----------|---------|
 | **Nhóm** | XBrain_Group10 |
-| **Tên thành viên** | Lê Trần Tuấn Khanh, Trần Mạnh Trường, Trần Mạnh Cường, Nguyễn Đức Hảo, Lê Văn Hải, Phan Đức Huy, Lê Viết Quốc Hưng, Huỳnh Xuân Hậu, Nguyễn Thị Mến, Trần Quốc Hùng |
+| **Tên thành viên** |Lê Viết Quốc Hưng|
 | **Tuần** | W5 - The Network Fortress (11–15 tháng 5, 2026) |
 | **Deadline** | Thứ Sáu 15-05-2026 |
-| **Link Repository** | https://github.com/hailv1209/XBrain_Group10.git |
+| **Link Repository** | https://github.com/Hung0codon/Project_Xbrain_.git |
 | **Evidence Pack tuần trước** | https://github.com/huyjaky/w4aws |
-| **Ngày tạo** | 14-05-2026 |
+| **Ngày tạo** | 28-05-2026 |
 
 ---
 
@@ -22,11 +22,14 @@
 ### Kiến trúc hiện tại
 
 **Mô tả ngắn ứng dụng:**
-- **Tên ứng dụng:** [Ứng dụng AI chatbot]
-- **Stack công nghệ:** [VD: Python/Node.js, RDS, Lambda, Bedrock]
-- **Dịch vụ AI được tích hợp:** Amazon Bedrock (Claude Sonnet 4-6, Claude Sonnet 4-5)
-- **Lớp lưu trữ file:** Amazon EFS (fs-0ed34a016c3fe7c67)
-- **Cơ sở dữ liệu:** RDS PostgreSQL (webapp-group10-database)
+- **Tên ứng dụng:** Agri Compliance Portal
+- **Domain:** Quản lý tài liệu tuân thủ nông nghiệp cho supplier và quality-control teams
+- **Stack công nghệ:** Node.js/Express, Docker, ECS Fargate, ALB, EFS, DynamoDB, API Gateway, Lambda, S3
+- **Lớp chạy ứng dụng:** Amazon ECS Fargate , Application Load Balancer 
+- **Lớp lưu trữ file:** Amazon EFS(fs-080ead609f73953dc)
+- **Cơ sở dữ liệu metadata:** Amazon DynamoDB (w5-agri-documents)
+- **Validation service:** API Gateway HTTP API 
+- **Serverless ingestion:** S3 bucket gửi  event prefix  tới Lambda
 - **Backup được quản lý bởi:** AWS Backup
 
 

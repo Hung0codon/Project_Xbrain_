@@ -37,7 +37,11 @@ Important resources:
 Evidence to capture:
 
 - [ ] `[ẢNH CẦN CHỤP]` Live dashboard opened through ALB URL.
+      <img width="1904" height="878" alt="image" src="https://github.com/user-attachments/assets/6af2b48a-46d3-468a-b5ec-169c9d420646" />
+
 - [ ] `[ẢNH CẦN CHỤP]` `/health` returns `200 OK`.
+      <img width="1904" height="881" alt="image" src="https://github.com/user-attachments/assets/f542ae1e-515e-448a-bfe1-445295a366c7" />
+
 - [ ] `[ẢNH CẦN CHỤP]` GitHub commit link for this evidence pack.
 
 ---
@@ -87,7 +91,7 @@ Region: us-east-1
 Evidence to capture:
 
 - [ ] `[ẢNH CẦN CHỤP]` VPC details page showing `w5-agri-vpc`, `10.0.0.0/16`.
-- [ ] `[ẢNH CẦN CHỤP]` Subnet list filtered by `vpc-05925adb5ee41a007`, showing public/private-app/private-data/firewall tiers across 2 AZs.
+      <img width="1449" height="614" alt="image" src="https://github.com/user-attachments/assets/5f9538cf-5532-4267-acb2-d967d9236555" />
 
 ### Route tables
 
@@ -126,8 +130,15 @@ w5-agri-rt-firewall-b
 Evidence to capture:
 
 - [ ] `[ẢNH CẦN CHỤP]` Route table `w5-agri-rt-public`.
+      <img width="1609" height="641" alt="image" src="https://github.com/user-attachments/assets/e8eeb9b4-535a-43b9-bb00-bf6dcfc8b254" />
+
 - [ ] `[ẢNH CẦN CHỤP]` Route tables `w5-agri-rt-private-app-a` and `w5-agri-rt-private-app-b`.
+      <img width="1619" height="692" alt="image" src="https://github.com/user-attachments/assets/2c739c20-03dc-48fb-8d50-744505beef98" />
+      <img width="1617" height="675" alt="image" src="https://github.com/user-attachments/assets/779ac328-facc-4769-bfb5-320741dcff7f" />
+
+
 - [ ] `[ẢNH CẦN CHỤP]` Firewall route tables showing `0.0.0.0/0 -> NAT Gateway`.
+      
 
 ### VPC Flow Logs
 

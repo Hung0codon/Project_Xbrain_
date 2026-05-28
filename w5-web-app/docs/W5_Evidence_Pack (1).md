@@ -1,4 +1,4 @@
-# W5 Evidence Pack — Smart Agricultural Compliance Document Portal
+<img width="1520" height="304" alt="image" src="https://github.com/user-attachments/assets/4fe9fb09-12c2-46b0-9d46-2c761b536ba5" /># W5 Evidence Pack — Smart Agricultural Compliance Document Portal
 
 ## Cover
 
@@ -138,6 +138,10 @@ Evidence to capture:
 
 
 - [ ] `[ẢNH CẦN CHỤP]` Firewall route tables showing `0.0.0.0/0 -> NAT Gateway`.
+      <img width="1447" height="616" alt="image" src="https://github.com/user-attachments/assets/8ba37ce0-2576-4e8b-8367-9ad55ef737df" />
+      <img width="1204" height="587" alt="image" src="https://github.com/user-attachments/assets/2adf9f9d-3430-497d-b096-4729f4f95062" />
+
+
       
 
 ### VPC Flow Logs
@@ -167,7 +171,16 @@ Sample:
 Evidence to capture:
 
 - [ ] `[ẢNH CẦN CHỤP]` VPC Flow Logs status `SUCCESS`.
+      <img width="1300" height="296" alt="image" src="https://github.com/user-attachments/assets/c6cba851-6a09-43f8-b220-84ff732c36a5" />
+
+      
+
+
 - [ ] `[ẢNH CẦN CHỤP]` CloudWatch log group `/aws/vpc/w5-agri-flowlogs` with `ACCEPT OK`.
+      <img width="1374" height="240" alt="image" src="https://github.com/user-attachments/assets/4f37747a-4bc2-483f-ae4a-1b7c6181870f" />
+
+
+      
 
 ---
 
@@ -265,10 +278,24 @@ Blocked alert sample:
 Evidence to capture:
 
 - [ ] `[ẢNH CẦN CHỤP]` Network Firewall `w5-agri-nfw` status `READY`.
+      <img width="1277" height="525" alt="image" src="https://github.com/user-attachments/assets/875b7ad4-121d-49ac-83a9-f0478693cc58" />
+
 - [ ] `[ẢNH CẦN CHỤP]` Firewall policy `w5-agri-fw-policy`.
+      <img width="1135" height="364" alt="image" src="https://github.com/user-attachments/assets/7652e2e0-b29b-4673-9c33-6e00e7b31e3e" />
+
 - [ ] `[ẢNH CẦN CHỤP]` Stateful rule group `w5-agri-stateful-allowlist`.
+      <img width="1175" height="351" alt="image" src="https://github.com/user-attachments/assets/5c92040f-9cc9-4c7c-8d42-8be2b3655c17" />
+      <img width="1227" height="581" alt="image" src="https://github.com/user-attachments/assets/414931a4-20f2-488a-bbd4-b0f84bf5999b" />
+
+
+
 - [ ] `[ẢNH CẦN CHỤP]` Logging config with `/aws/network-firewall/alerts` and `/aws/network-firewall/flows`.
+      <img width="1520" height="304" alt="image" src="https://github.com/user-attachments/assets/11e09919-d683-4fd2-9510-a0ba21d39e77" />
+
+      
 - [ ] `[ẢNH CẦN CHỤP]` CloudWatch Alert Logs showing `verdict.action=drop`.
+      <img width="1104" height="488" alt="image" src="https://github.com/user-attachments/assets/5cdd5e2c-4ec1-4854-91f8-345366e9aef4" />
+
 
 Security note:
 
@@ -414,12 +441,26 @@ Completed restore jobs:
 Evidence to capture:
 
 - [ ] `[ẢNH CẦN CHỤP]` EFS details showing encryption enabled.
+      <img width="1277" height="429" alt="image" src="https://github.com/user-attachments/assets/a7089f58-9836-4338-b446-b4f02c2a164a" />
+
 - [ ] `[ẢNH CẦN CHỤP]` EFS mount targets in private data subnets.
+      <img width="1113" height="348" alt="image" src="https://github.com/user-attachments/assets/5fd65b1b-b14c-4191-b660-20e3ad842384" />
+
 - [ ] `[ẢNH CẦN CHỤP]` EFS access point `w5-agri-efs-ap-uploads`.
+      <img width="1003" height="426" alt="image" src="https://github.com/user-attachments/assets/a9f07fc7-a62f-44e2-93e5-01953ffd62fe" />
+
 - [ ] `[ẢNH CẦN CHỤP]` ECS task definition volume and mount point `/mnt/efs`.
+      <img width="1297" height="392" alt="image" src="https://github.com/user-attachments/assets/6f071b02-a653-44fb-8e17-a0b9b861ee2f" />
+
+
 - [ ] `[ẢNH CẦN CHỤP]` Upload success page.
+      <img width="1412" height="182" alt="image" src="https://github.com/user-attachments/assets/4d759afa-d155-4d88-b726-23e6dea1140d" />
+
 - [ ] `[ẢNH CẦN CHỤP]` Repository page showing uploaded file.
+      <img width="1417" height="178" alt="image" src="https://github.com/user-attachments/assets/707fb9ed-3abc-4e42-b54d-f8b1f08d5b79" />
+
 - [ ] `[ẢNH CẦN CHỤP]` DynamoDB item created by upload.
+      
 - [ ] `[ẢNH CẦN CHỤP]` AWS Backup plan and selection.
 - [ ] `[ẢNH CẦN CHỤP]` Backup jobs `COMPLETED`.
 - [ ] `[ẢNH CẦN CHỤP]` Restore jobs `COMPLETED`.

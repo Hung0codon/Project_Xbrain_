@@ -41,6 +41,7 @@ function wantsHtml(req) {
 
 function normalizeStatus(status = '') {
   const value = String(status).toLowerCase();
+  if (value.includes('process')) return 'processed';
   if (value.includes('valid') || value.includes('accept') || value.includes('success')) return 'validated';
   if (value.includes('fail') || value.includes('reject') || value.includes('error')) return 'failed';
   return 'pending';
@@ -48,6 +49,7 @@ function normalizeStatus(status = '') {
 
 function formatStatus(status = '') {
   const normalized = normalizeStatus(status);
+  if (normalized === 'processed') return 'Processed';
   if (normalized === 'validated') return 'Validated';
   if (normalized === 'failed') return 'Failed';
   return 'Pending';
@@ -92,7 +94,10 @@ function getDocumentFileName(item = {}) {
 function getStats(metadata = [], files = []) {
   const totalDocuments = Math.max(metadata.length, files.length);
   const pending = metadata.filter((item) => normalizeStatus(item.validationStatus) === 'pending').length;
-  const validated = metadata.filter((item) => normalizeStatus(item.validationStatus) === 'validated').length;
+  const validated = metadata.filter((item) => {
+    const status = normalizeStatus(item.validationStatus);
+    return status === 'validated' || status === 'processed';
+  }).length;
   const failed = metadata.filter((item) => normalizeStatus(item.validationStatus) === 'failed').length;
   const suppliers = new Set(metadata.map((item) => item.supplier).filter(Boolean)).size;
   const readiness = totalDocuments ? Math.round((validated / totalDocuments) * 100) : 0;

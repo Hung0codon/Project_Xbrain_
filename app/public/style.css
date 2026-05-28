@@ -461,6 +461,11 @@ tbody tr:hover {
   background: var(--green-100);
 }
 
+.badge.processed {
+  color: #23576f;
+  background: var(--blue-soft);
+}
+
 .badge.failed {
   color: #8d2f29;
   background: var(--red-soft);

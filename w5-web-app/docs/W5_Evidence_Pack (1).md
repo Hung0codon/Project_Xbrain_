@@ -1,4 +1,4 @@
-<img width="1520" height="304" alt="image" src="https://github.com/user-attachments/assets/4fe9fb09-12c2-46b0-9d46-2c761b536ba5" /># W5 Evidence Pack — Smart Agricultural Compliance Document Portal
+# W5 Evidence Pack — Smart Agricultural Compliance Document Portal
 
 ## Cover
 
@@ -41,9 +41,6 @@ Evidence to capture:
 
 - [ ] `[ẢNH CẦN CHỤP]` `/health` returns `200 OK`.
       <img width="1904" height="881" alt="image" src="https://github.com/user-attachments/assets/f542ae1e-515e-448a-bfe1-445295a366c7" />
-
-- [ ] `[ẢNH CẦN CHỤP]` GitHub commit link for this evidence pack.
-
 ---
 
 ## MH1 — Single-VPC Connectivity

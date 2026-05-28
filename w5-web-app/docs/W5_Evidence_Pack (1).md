@@ -460,11 +460,28 @@ Evidence to capture:
       <img width="1417" height="178" alt="image" src="https://github.com/user-attachments/assets/707fb9ed-3abc-4e42-b54d-f8b1f08d5b79" />
 
 - [ ] `[ẢNH CẦN CHỤP]` DynamoDB item created by upload.
-      
+      <img width="1264" height="322" alt="image" src="https://github.com/user-attachments/assets/32689650-abd0-4976-a17f-fe2dec77cbbc" />
+
 - [ ] `[ẢNH CẦN CHỤP]` AWS Backup plan and selection.
+      <img width="1111" height="320" alt="image" src="https://github.com/user-attachments/assets/0e181bf0-0e2d-480f-9f1f-9a1d64722fc0" />
+      <img width="885" height="371" alt="image" src="https://github.com/user-attachments/assets/4e97ddd6-8570-4e76-8704-19c9eba2f924" />
+      <img width="1010" height="306" alt="image" src="https://github.com/user-attachments/assets/a276fcbb-ebcd-423a-8dc1-c1ada0c3a379" />
+      <img width="1312" height="413" alt="image" src="https://github.com/user-attachments/assets/4a238a65-2d69-4441-9879-c64664cd19ba" />
+      <img width="1110" height="322" alt="image" src="https://github.com/user-attachments/assets/e00cfee7-e6bb-4bfe-848c-6e89ec5f42f0" />
+
+
+
+
+
 - [ ] `[ẢNH CẦN CHỤP]` Backup jobs `COMPLETED`.
+      <img width="1310" height="401" alt="image" src="https://github.com/user-attachments/assets/7e593282-226a-4c92-b996-e51c60af6d7a" />
+
 - [ ] `[ẢNH CẦN CHỤP]` Restore jobs `COMPLETED`.
+      <img width="1163" height="307" alt="image" src="https://github.com/user-attachments/assets/93467087-394a-4800-ae8e-b5d0d4bb54a2" />
+
 - [ ] `[ẢNH CẦN CHỤP]` Restored DynamoDB table `w5-agri-documents-restored`.
+      <img width="1283" height="542" alt="image" src="https://github.com/user-attachments/assets/8ef01f3a-15db-4bdb-8898-2fc1acac1589" />
+
 
 ---
 
@@ -550,11 +567,23 @@ HTTP/2 403
 Evidence to capture:
 
 - [ ] `[ẢNH CẦN CHỤP]` API Gateway `w5-agri-api`, route `POST /validate`.
+      <img width="1647" height="530" alt="image" src="https://github.com/user-attachments/assets/6e14fd2a-67a6-4e31-ab10-dc281c99a6b0" />
+
 - [ ] `[ẢNH CẦN CHỤP]` Stage `prod`, throttling rate `2`, burst `5`.
+      <img width="849" height="144" alt="image" src="https://github.com/user-attachments/assets/a81e79ce-5782-49af-8a1b-c07786fb819e" />
+
 - [ ] `[ẢNH CẦN CHỤP]` Lambda env var `EXPECTED_API_KEY` or code snippet checking `x-api-key`.
+      <img width="898" height="211" alt="image" src="https://github.com/user-attachments/assets/2c787c28-5ca6-4692-91bd-7cba206912b4" />
+
 - [ ] `[ẢNH CẦN CHỤP]` Curl/Postman `200` with `x-api-key`.
+      <img width="808" height="271" alt="image" src="https://github.com/user-attachments/assets/52d6f012-c727-4f54-a5f6-5d7951b61248" />
+
 - [ ] `[ẢNH CẦN CHỤP]` Curl/Postman `403` without `x-api-key`.
+      <img width="638" height="246" alt="image" src="https://github.com/user-attachments/assets/0b89d438-b9bb-40df-a226-0ec8563141ac" />
+
 - [ ] `[ẢNH CẦN CHỤP]` Web app Validation Center page.
+      <img width="1888" height="886" alt="image" src="https://github.com/user-attachments/assets/08ea4ef0-940e-4f2f-a2fb-91295b8b4ad5" />
+
 
 ---
 
@@ -650,11 +679,24 @@ REPORT RequestId: ad5d84fd-315a-406a-8d20-98a10d8e2266 Duration: 303.67 ms
 Evidence to capture:
 
 - [ ] `[ẢNH CẦN CHỤP]` S3 bucket `w5-agri-doc-events`.
+      <img width="868" height="367" alt="image" src="https://github.com/user-attachments/assets/cfb7812c-bfb7-4313-827a-523f5aa00a3d" />
+
+
 - [ ] `[ẢNH CẦN CHỤP]` S3 event notification showing `ObjectCreated:*`, Lambda ARN, prefix `uploads/`.
+      <img width="1214" height="177" alt="image" src="https://github.com/user-attachments/assets/8b95032d-928a-481a-af7b-38ec8caded56" />
+
 - [ ] `[ẢNH CẦN CHỤP]` Lambda permissions tab showing S3 invoke permission.
+      <img width="963" height="261" alt="image" src="https://github.com/user-attachments/assets/2ffaec98-52ad-44c3-a071-c21599c4661b" />
+
 - [ ] `[ẢNH CẦN CHỤP]` S3 object under `uploads/s3-test-1779952164.txt`.
+      <img width="991" height="276" alt="image" src="https://github.com/user-attachments/assets/a94cb628-4652-43c4-8247-2ff754739cf1" />
+
 - [ ] `[ẢNH CẦN CHỤP]` Lambda CloudWatch Logs after S3 upload.
+      <img width="1467" height="382" alt="image" src="https://github.com/user-attachments/assets/71250eae-576c-44d4-9bcd-8a335fa8b814" />
+
 - [ ] `[ẢNH CẦN CHỤP]` DynamoDB item with `source=s3-event` and `validationStatus=processed`.
+      <img width="1253" height="278" alt="image" src="https://github.com/user-attachments/assets/8a0489d8-656f-42c4-8da8-0e26bd316419" />
+
 
 ---
 

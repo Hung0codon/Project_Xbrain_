@@ -87,7 +87,7 @@ Region: us-east-1
 
 Evidence to capture:
 
-- [ ] `[ẢNH CẦN CHỤP]` VPC details page showing `w5-agri-vpc`, `10.0.0.0/16`.
+- [ ] `[ẢNH CẦN CHỤP]` VPC details page showing .
       <img width="1449" height="614" alt="image" src="https://github.com/user-attachments/assets/5f9538cf-5532-4267-acb2-d967d9236555" />
 
 ### Route tables

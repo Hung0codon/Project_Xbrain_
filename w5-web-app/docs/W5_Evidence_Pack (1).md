@@ -10,8 +10,7 @@
 - [x] **ALB URL:** `http://w5-agri-alb-1092573247.us-east-1.elb.amazonaws.com`
 - [x] **Health URL:** `http://w5-agri-alb-1092573247.us-east-1.elb.amazonaws.com/health`
 - [x] **API Gateway URL:** `https://6w3fgcbsx6.execute-api.us-east-1.amazonaws.com/prod/validate`
-- [ ] **Evidence commit link:** `[ẢNH/LINK CẦN THÊM] Commit chứa file evidence này`
-- [ ] **Previous week evidence link, if available:** `[LINK CẦN THÊM HOẶC BỎ DÒNG NÀY]`
+
 
 Notes:
 

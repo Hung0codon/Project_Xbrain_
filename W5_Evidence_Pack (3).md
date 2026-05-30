@@ -886,7 +886,9 @@ HTTP/2 403
 ae2c1b0 Update W5 evidence pack
 ```
 
-> **📸 Screenshot 11.2:** Cần chụp GitHub Actions run thành công và ECS task definition image tag từ commit mới nhất.
+> **📸 Screenshot 11.2:** GitHub Actions run thành công và ECS task definition image tag từ commit mới nhất.
+<img width="1457" height="737" alt="image" src="https://github.com/user-attachments/assets/76b0822d-2b69-4415-8902-3f4c9431e879" />
+
 
 ---
 

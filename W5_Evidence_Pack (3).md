@@ -816,8 +816,6 @@ Subnets: private-app-a, private-app-b
 | `GET /files/:name` | File read compatibility route | Implemented |
 | `GET/POST /lambda-test` | Validation Center | Implemented |
 
-> **📸 Screenshot 9.3:** Cần chụp các trang Dashboard, Upload, Upload success, Repository (với badge `Pending` và `Processed`), Validation Center, System Status, ECS service 2 desired/2 running, ALB target group healthy.
-
 ---
 
 ## 10. Negative Security Tests ★

@@ -939,33 +939,4 @@ Khi upload file lên `s3://w5-agri-doc-events/something-else/file.txt` (không c
 
 ---
 
-## 13. Final Screenshot Checklist
 
-> **Checklist tổng hợp tất cả screenshot cần có trong evidence pack:**
-
-- [ ] Live dashboard trên ALB URL
-- [ ] `/health` trả về `200 OK`
-- [ ] Upload form và upload success
-- [ ] Repository table với badge `Pending` và `Processed`
-- [ ] VPC `w5-agri-vpc` details
-- [ ] Subnet list hiển thị public/private-app/private-data/firewall subnets
-- [ ] Route tables: public, private-app A/B, firewall A/B
-- [ ] VPC Flow Logs status và CloudWatch sample
-- [ ] Network Firewall status `READY`
-- [ ] Network Firewall policy và stateful rule group
-- [ ] Network Firewall alert log hiển thị `drop`
-- [ ] EFS filesystem details, mount targets, access point
-- [ ] ECS task definition EFS mount
-- [ ] DynamoDB table và sample metadata item
-- [ ] AWS Backup plan, vault, backup jobs, restore jobs
-- [ ] API Gateway route và stage throttling
-- [ ] Curl/Postman `200` với API key
-- [ ] Curl/Postman `403` không có API key
-- [ ] S3 notification config với prefix `uploads/`
-- [ ] Lambda permission hiển thị S3 có thể invoke
-- [ ] S3 object dưới `uploads/`
-- [ ] Lambda CloudWatch log sau khi S3 upload
-- [ ] DynamoDB item với `source=s3-event`
-- [ ] GitHub Actions deploy thành công
-
----

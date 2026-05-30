@@ -861,9 +861,6 @@ HTTP/2 403
   "verdict": { "action": "drop" }
 }
 ```
-
-> **📸 Screenshot 10.4:** Cần chụp Curl/Postman `403` và CloudWatch Network Firewall alert log với `drop`.
-
 ---
 
 ## 11. Bonus
